@@ -26,6 +26,14 @@ To run the software it is necessary to have Python3 (3.9) and install the follow
 - SciPy (1.6.0)
 - matplotlib (3.3.4)
 
+**Install all dependencies using anaconda virtual environment:**
+
+conda create -n ubathy python=3.9
+conda activate ubathy
+conda install opencv numpy scipy matplotlib gst-plugins-base gst-plugins-good
+
+**Note: Gstreamer plugins are required, otherwise you will get the error: "Your GStreamer installation is missing a plug-in"**
+
 In parenthesis we indicate the version with which the software has been tested. It is possible that it works with older versions. 
 
 The structure of the project is the following:
